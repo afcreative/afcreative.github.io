@@ -1,6 +1,6 @@
 ---
-title: About
-icon: fas fa-info-circle
+title: Kreator
+icon: fas fa-user-circle
 order: 4
 ---
 
