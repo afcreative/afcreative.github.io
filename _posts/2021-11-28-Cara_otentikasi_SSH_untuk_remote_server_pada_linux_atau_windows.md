@@ -4,6 +4,9 @@ date: 2021-11-28 13:22:55 +0700
 categories: [Deployment]
 tags: [command line interface, ssh, remote server, linux, windows]
 ---
+## Pengertian
+Secure shell atau SSH adalah protokol transfer yang memungkinkan penggunanya untuk mengontrol sebuah perangkat secara remote atau dari jarak jauh melalui koneksi internet. Dengan SSH, Anda bisa mengakses dan memodifikasi berbagai macam pengaturan maupun file yang ada di dalam server tersebut. Fungsi SSH adalah sebagai media transfer data aman dan terpercaya yang bisa digunakan secara remote atau dari jarak jauh.
+
 ## Shell
 ```bash
 $ ssh
@@ -28,7 +31,7 @@ Berikut ini penggunaan dasar dari SSH yang umumnya digunakan:
 
 Keterangan:
 
-|  | Penjelasan |
+| Argumen | Penjelasan |
 | ----------- | ----------- |
 | **nama_pengguna** | Nama pengguna yang terdaftar dan memiliki akses (bash) server. |
 | **host_server** | IP address atau domain website server. |
@@ -65,17 +68,17 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
 ```
 
 Konfirmasi intruksi untuk akses:
-```shell
+```bash
 yes
 ```
 
 Masukkan kata sandi pengguna, penulisan kata sandi tidak akan terlihat maka lakukan dengan baik. Jika dirasa salah lebih baik batalkan dengan perintah <kbd>CTRL</kbd>+<kbd>C</kbd>, tekan <kbd>Enter</kbd> untuk memproses otentikasi SSH:
-```shell
+```bash
 admin@127.0.0.1's password:
 ```
 
 Respon jika berhasil proses otentikasi SSH dengan nama pengguna dan kata sandi yang benar:
-```shell
+```bash
 Linux Debian 4.9.272-2 (2021-07-19) x86_64
 
 The programs included with the Debian GNU/Linux system are free software;
@@ -88,10 +91,10 @@ Last login: Sun May 23 16:50:11 2021 from 114.124.172.253
 admin@afcreative:~#
 ```
 Jika sudah melakukan operasi pada server maka cukup menutup terminal atau cmd, maka remote akan berhenti secara otomatis. Namun jika ingin keluar pengguna SSH dari remote server dengan teratur bisa lakukan ini:
-```shell
+```bash
 admin@afcreative:~# exit
 ```
 
 ## Alat Yang Digunakan Dalam Penggunaan
-- [Windows PowerShell](https://docs.microsoft.com/en-us/powershell/scripting/overview?view=powershell-7.2): sebagai command-line shell.
-- [Windows Terminal](https://www.microsoft.com/en-us/p/windows-terminal/9n0dx20hk701): sebagai command-line tools.
+- [Windows PowerShell](https://docs.microsoft.com/en-us/powershell/scripting/overview?view=powershell-7.2)<br/>Sebagai command-line shell.
+- [Windows Terminal](https://www.microsoft.com/en-us/p/windows-terminal/9n0dx20hk701)<br/>Sebagai command-line tool.
