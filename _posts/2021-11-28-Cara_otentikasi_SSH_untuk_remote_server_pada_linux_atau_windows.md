@@ -2,7 +2,7 @@
 title: Cara otentikasi SSH untuk remote server pada linux atau windows
 date: 2021-11-28 13:22:55 +0700
 categories: [Deployment]
-tags: [command line interface, ssh, remote server, linux, windows]
+tags: [command line interface, bash, shell, ssh, remote server, linux, windows]
 ---
 ## Pengertian
 Secure shell atau SSH adalah protokol transfer yang memungkinkan penggunanya untuk mengontrol sebuah perangkat secara remote atau dari jarak jauh melalui koneksi internet. Dengan SSH, Anda bisa mengakses dan memodifikasi berbagai macam pengaturan maupun file yang ada di dalam server tersebut. Fungsi SSH adalah sebagai media transfer data aman dan terpercaya yang bisa digunakan secara remote atau dari jarak jauh.
