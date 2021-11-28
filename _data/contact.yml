@@ -1,11 +1,14 @@
 #  The contact options.
 
 -
-  type: github
-  icon: 'fab fa-github'
+  type: facebook
+  icon: 'fab fa-facebook'
 -
   type: twitter
   icon: 'fab fa-twitter'
+-
+  type: github
+  icon: 'fab fa-github'
 -
   type: email
   icon: 'fas fa-envelope'
