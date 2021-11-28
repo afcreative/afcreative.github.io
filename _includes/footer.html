@@ -6,8 +6,7 @@
   <div class="d-flex justify-content-between align-items-center">
     <div class="footer-left">
       <p class="mb-0">
-        © {{ 'now' | date: "%Y" }}
-        <a href="{{ site.social.links[0] }}">{{ site.social.name }}</a>.
+        Hak Cipta {{ 'now' | date: "%Y" }} © <a href="{{ '/' | relative_url }}">{{ site.title }}</a>.
         {% if site.data.locales[lang].copyright.brief %}
         <span data-toggle="tooltip" data-placement="top"
           title="{{ site.data.locales[lang].copyright.verbose }}">{{ site.data.locales[lang].copyright.brief }}</span>
@@ -17,14 +16,8 @@
 
     <div class="footer-right">
       <p class="mb-0">
-        {% capture _platform %}
-          <a href="https://jekyllrb.com" target="_blank" rel="noopener">Jekyll</a>
-        {% endcapture %}
-
-        {% capture _theme %}
-          <a href="https://github.com/cotes2020/jekyll-theme-chirpy" target="_blank" rel="noopener">Chirpy</a>
-        {% endcapture %}
-
+        <a href="https://jekyllrb.com" target="_blank" rel="noopener">Hai</a> ·
+        <a href="https://jekyllrb.com" target="_blank" rel="noopener">Halo</a> ·
         {{ site.data.locales[lang].meta
           | default: 'Powered by :PLATFORM with :THEME theme.'
           | replace: ':PLATFORM', _platform | replace: ':THEME', _theme
