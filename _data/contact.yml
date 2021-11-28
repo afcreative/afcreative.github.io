@@ -12,12 +12,3 @@
   icon: 'fab fa-instagram'
   url:  'https://www.instagram.com/afcreative.id'
   noblank: false
--
-  type: github
-  icon: 'fab fa-github'
-  noblank: false
--
-  type: email
-  icon: 'fas fa-envelope'
-  url:  'mailto:afarhansyah98@gmail.com'
-  noblank: true
