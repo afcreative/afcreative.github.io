@@ -1,6 +1,6 @@
 ---
 layout: archives
-title: Archives
+title: Arsip
 icon: fas fa-stream
 order: 3
 ---
