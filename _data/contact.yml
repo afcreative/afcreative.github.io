@@ -21,7 +21,3 @@
   icon: 'fas fa-envelope'
   url:  'mailto:afarhansyah98@gmail.com'
   noblank: true
--
-  type: rss
-  icon: 'fas fa-rss'
-  noblank: true
