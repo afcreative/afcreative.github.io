@@ -4,10 +4,13 @@ date: 2021-11-28 13:22:55 +0700
 categories: [Deployment]
 tags: [command line interface, bash, shell, ssh, remote server, linux, windows]
 ---
-## Pengertian
+## Pengertian SSH
 Secure shell atau SSH adalah protokol transfer yang memungkinkan penggunanya untuk mengontrol sebuah perangkat secara remote atau dari jarak jauh melalui koneksi internet. Dengan SSH, Anda bisa mengakses dan memodifikasi berbagai macam pengaturan maupun file yang ada di dalam server tersebut. Fungsi SSH adalah sebagai media transfer data aman dan terpercaya yang bisa digunakan secara remote atau dari jarak jauh.
 
-## Shell
+Sumber: [Apa Itu SSH: Pengertian, Cara Kerja, dan Fungsinya](https://www.goldenfast.net/blog/ssh-adalah/)
+
+
+## Shell Dasar SSH
 ```bash
 $ ssh
 ```
@@ -25,7 +28,7 @@ Fungsi argumen lengkap terkait SSH:
 
 [SSH Cheat Sheet](https://lzone.de/cheat-sheet/SSH)
 
-## Format Penulisan
+## Format Penulisan SSH
 Berikut ini penggunaan dasar dari SSH yang umumnya digunakan:
 > $ ssh **nama_pengguna**@**host_server** -p **nomor_port**
 
@@ -38,7 +41,7 @@ Keterangan:
 | **nomor_port** | Nomor port server. |
 
 
-## Contoh Penulisan
+## Contoh Penulisan SSH
 - Tanpa *port* yang ditentukan atau spesifik:
 ```bash
 $ ssh user@192.168.0.1
@@ -54,7 +57,7 @@ $ ssh admin@127.0.0.1 -p 21
 $ ssh root@afcreative.github.io -p 8083
 ```
 
-## Penggunaan
+## Cara & Alur Penggunaan SSH
 Melakukan otentikasi ke remote server:
 ```bash
 $ ssh admin@127.0.0.1 -p 21
@@ -77,7 +80,7 @@ Masukkan kata sandi pengguna, penulisan kata sandi tidak akan terlihat maka laku
 admin@127.0.0.1's password:
 ```
 
-Respon jika berhasil proses otentikasi SSH dengan nama pengguna dan kata sandi yang benar:
+Respon jika berhasil proses otentikasi SSH dengan nama pengguna dan kata sandi yang benar, disini sudah bisa mengoperasikan server yang diremote:
 ```bash
 Linux Debian 4.9.272-2 (2021-07-19) x86_64
 
@@ -95,6 +98,6 @@ Jika sudah melakukan operasi pada server maka cukup menutup terminal atau cmd, m
 admin@afcreative:~# exit
 ```
 
-## Alat Yang Digunakan Dalam Penggunaan
+## Alat Yang Digunakan Untuk SSH
 - [Windows PowerShell](https://docs.microsoft.com/en-us/powershell/scripting/overview?view=powershell-7.2)<br/>Sebagai command-line shell.
 - [Windows Terminal](https://www.microsoft.com/en-us/p/windows-terminal/9n0dx20hk701)<br/>Sebagai command-line tool.
