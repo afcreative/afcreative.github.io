@@ -90,7 +90,7 @@ individual files in /usr/share/doc/*/copyright.
 
 Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
 permitted by applicable law.
-Last login: Sun May 23 16:50:11 2021 from 114.124.172.253
+Last login: Sun May 23 16:50:11 2021 from 127.0.0.2
 admin@afcreative:~#
 ```
 Jika sudah melakukan operasi pada server maka cukup menutup terminal atau cmd, maka remote akan berhenti secara otomatis. Namun jika ingin keluar pengguna SSH dari remote server dengan teratur bisa lakukan ini:
